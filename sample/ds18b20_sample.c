@@ -16,7 +16,7 @@
 #include "sensor_dallas_ds18b20.h"
 
 /* Modify this pin according to the actual wiring situation */
-#define DS18B20_DATA_PIN    GET_PIN(A, 7)
+#define DS18B20_DATA_PIN    GET_PIN(C, 3)
 
 static void read_temp_entry(void *parameter)
 {
